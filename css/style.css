@@ -165,7 +165,6 @@ ol, ul {
 .trends {
     display: flex;
     justify-content: space-between;
-
 }
 
 .trends-title, .new-posts-title, .container-goods-title, .popup-title {
@@ -214,11 +213,15 @@ ol, ul {
     box-sizing: border-box;
 
 }
-@media (min-width:641px){
+@media (min-width:641px) {
     .trend-cards:not(:last-child) {
         border-right: 5px solid #fff;
     }
 }
+
+/* .trend-cards:not(:last-child) {
+    border-right: 5px solid #fff;
+} */
 
 
 .trend-cards::after {
@@ -235,8 +238,8 @@ ol, ul {
 
 .trend-card-content {
     border: 3px solid #b59f5b;
-    padding: 36px 39px 29px 29px;
-    margin: 0 22px 14px;
+    padding: 38px 32px 32px;
+    margin: 0 20px 13px;
 }
 .trend-card-title {
     text-transform: uppercase; 
@@ -468,10 +471,12 @@ span {
     width: 100%;
 }
   
-.field:focus, .field-subs:focus, .field-textarea:focus, .how-often:focus {  
+.field:focus, .field-subs:focus, .field-textarea:focus, 
+.how-often:focus {  
     outline: 1px solid #b59f5b;
 }
-.btn-search:hover, .btn-subscribe:hover, .btn-shop:hover, .btn__popup:hover, .btn-form-submit:hover {
+.btn-search:hover, .btn-subscribe:hover, .btn-shop:hover, 
+.btn__popup:hover, .btn-form-submit:hover {
     background-color: #313131;
 }
   
@@ -547,7 +552,7 @@ span {
 /*Магазин*/
 .container-second {
     width: 1200px;
-    margin: 0 auto 67px auto;
+    margin: 0 auto;
     padding: 0 15px;
 }
 
@@ -560,9 +565,9 @@ span {
     width: 1200px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 auto;    
     padding: 0 15px; 
-    gap: 35px;
+    gap: 60px;
 }
 
 picture {
@@ -572,17 +577,19 @@ picture {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #eff6f1;
-    width: 347px;
+    width: 300px;
     height: 207px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .goods {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 31.5%;
+    width: 33%;
     align-content: center;
+    margin: 0 auto;
 
 }
 .goods-info {
@@ -590,8 +597,8 @@ picture {
     flex-grow: 1;
     /* width: 85%; */
     margin-top: -29px;
-    margin-right: 8%;
-    padding: 42px 22px 27px 19px;
+    /* padding: 42px 22px 27px 19px; */
+    padding: 42px 39px 27px 12px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
@@ -646,18 +653,19 @@ picture {
 }
 
 
-
-
 /*Подвал страницы*/
 .footer {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     box-sizing: border-box;
+    margin-top: 67px;
 }
+
 
 .footer-main {
     width: 100%;
@@ -676,6 +684,7 @@ picture {
     background-position: center center;
     /* margin-top: 30px; */
     gap: 25px;
+    justify-content: center;
 }
   
 .icon {
@@ -739,7 +748,7 @@ picture {
     width: 391px;
     height: 589px; 
     padding: 50px 31px 25px;
-    margin: 7% auto 39px;
+    margin: 188px auto 39px;
     box-sizing: border-box;
     /* border: 3px solid #000; */
     background: #fff;

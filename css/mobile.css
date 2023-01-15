@@ -84,7 +84,7 @@
 
     .trends {
         flex-direction: column;
-        /* gap: 4px; */
+        gap: 0px;
     }
 
     .trend-cards {
@@ -93,7 +93,6 @@
         border-bottom: 3px solid #fff;
         box-sizing: border-box;
         display: flex;
-        align-items: flex-end;
         border-right: none;
     }
     
@@ -267,11 +266,10 @@
     .footer {
         background-color: #fff;
         margin-top: -9px;
+        padding: 0 15px !important;
         
     }
-    /* .footer-main {
-        padding: 0 20px 0 15px;
-    } */
+
     .copyright {
         margin: 45px 0;
         letter-spacing: -0.3px;
@@ -295,6 +293,13 @@
     .popup-title {
         font-size: 1.5rem !important;
     }
+
+    .popup-form {
+        gap: 30px;
+        letter-spacing: -0.5px;
+        margin-top: 31px;
+    }
+
     .radio-group {
         margin-right: 31px;
         margin-top: 10px;
