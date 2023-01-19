@@ -25,7 +25,7 @@
             <li class="menu-li"><a href="#" class="menu-link">контакты</a></li>
           </ul>
           <button class="menu__button">
-            <p class="menu__button-label">открыть меню</p>
+            <span class="menu__button-label">открыть меню</span>
           </button>
         </nav>
         <h1 class="page-title">Блог о творчестве, спорте <br class="br">и образе жизни </h1>
@@ -79,14 +79,14 @@
         <div class="post-total">
           <div class="post-header">
             <ul class="post-tags">
-            <li class="tags-li"><a href="#0" class="post-tags-link">travel</a></li>
-            <li class="tags-li"><a href="#0" class="post-tags-link">health</a></li>
-          </ul>
+              <li class="tags-li"><a href="#0" class="post-tags-link">travel</a></li>
+              <li class="tags-li"><a href="#0" class="post-tags-link">health</a></li>
+            </ul>
             <h2 class="post-title"><a href="#0" class="post-title">10 мест, ради которых стоит проснуться на рассвете</a></h2>
             <p class="post-time-author">
-            <time datetime="2019-06-10" class="post-time">10 июня 2019</time>
-            <span>Неизвестный автор</span> 
-          </p>
+              <time datetime="2019-06-10" class="post-time">10 июня 2019</time>
+              <span>Неизвестный автор</span> 
+            </p>
           </div>
           <p class="post-text"> Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>
           </div>
@@ -206,18 +206,19 @@
           </article>     
         </section>
         <section class="aside-item">
+          <h3 class="visually-hidden">Поиск</h3>
           <form class="form-search">
           <label class="label-search">
-            <input type="search" class="field" placeholder="Найти..."><p class="visually-hidden">Поле ввода информации для поиска</p>
+            <input type="search" class="field" placeholder="Найти..."><span class="visually-hidden">Поле ввода информации для поиска</span>
           </label>
-          <button type="submit" class="btn-search"><p class="visually-hidden">Кнопка поиска</p></button>
+          <button type="submit" class="btn-search"><span class="visually-hidden">Кнопка поиска</span></button>
           </form> 
         </section>
         <section class="aside-item aside-forms">
           <h3 class="title new-posts-title">Рассылка</h3>
           <form class="form-subscribe">
           <label>
-            <input type="email" class="field-subs" placeholder="Ваш e-mail адрес"><p class="visually-hidden">Поле ввода email адреса</p>
+            <input type="email" class="field-subs" placeholder="Ваш e-mail адрес"><span class="visually-hidden">Поле ввода email адреса</span>
           </label>
           <button type="submit" class="btn-subscribe">Подписаться</button>
         </form>
@@ -238,18 +239,18 @@
         <section class="aside-item categories">
           <h3 class="title new-posts-title">Темы</h3>
           <ul class="cat-lists">
-            <li class="cat-list"><a href="#" class="cat-list-items">Красота</a> 
-              <a href="#" class="cointer">12</a></li>
-            <li class="cat-list"><a href="#" class="cat-list-items">Здоровье</a>
-              <a href="#" class="cointer">4</a></li>
-            <li class="cat-list"><a href="#" class="cat-list-items">Образ жизни</a>
-              <a href="#" class="cointer">145</a></li>
-            <li class="cat-list"><a href="#" class="cat-list-items">Музыка</a>
-              <a href="#" class="cointer">28</a></li>
-            <li class="cat-list"><a href="#" class="cat-list-items">Спорт</a>
-              <a href="#" class="cointer">62</a></li>
-            <li class="cat-list"><a href="#" class="cat-list-items">Йога</a>
-              <a href="#" class="cointer">8</a></li>
+            <li class="cat-list"><a href="#" class="cat-list-items">Красота
+              <p class="cointer">12</p></a></li>
+            <li class="cat-list"><a href="#" class="cat-list-items">Здоровье
+              <p class="cointer">4</p></a></li>
+            <li class="cat-list"><a href="#" class="cat-list-items">Образ жизни
+              <p class="cointer">145</p></a></li>
+            <li class="cat-list"><a href="#" class="cat-list-items">Музыка
+              <p class="cointer">28</p></a></li>
+            <li class="cat-list"><a href="#" class="cat-list-items">Спорт
+              <p class="cointer">62</p></a></li>
+            <li class="cat-list"><a href="#" class="cat-list-items">Йога
+              <p class="cointer">8</p></a></li>
           </ul>
         </section>
         <div class="btn__popup visually-hidden"> <!-- Кнопка вызова Popup -->
@@ -266,7 +267,7 @@
             <source media="(max-width: 640px)" srcset="img/shop-item-mobile1.jpg">
             <source media="(min-width: 641px) and (max-width: 1200px)" srcset="img/shop-item-tablet1.jpg">
             <source media="(min-width: 1201px)" srcset="img/shop-item-desk1.jpg">
-            <img srcset="img/shop-item-desk1.jpg" alt="Подушки на диван">
+            <img src="img/shop-item-desk1.jpg" alt="Подушки на диван">
           </picture>
           <div class="goods-info">
             <div class="goods-title">подушки на диван</div>
@@ -322,7 +323,7 @@
         </div>
         
         <div>
-        <a href="#" class="copyright" alt="Copyright">Copyright © 2009–2019 City Blog LLC.   </a>
+        <a href="#" class="copyright" title="Copyright">Copyright © 2009–2019 City Blog LLC.   </a>
       </div>
     </footer> 
 
@@ -331,12 +332,12 @@
     <input type="checkbox" id="popup1" class="popup__toggle">
     <div class="popup-parent">
       <div class="popup-child">
-        <label for="popup1" class="popup__close"><p class="visually-hidden">ххх</p></label>
+        <label for="popup1" class="popup__close"><span class="visually-hidden">close button</span></label>
           <h2 class="popup-title title">Ваш фидбек</h2>
           <form class="popup-form">
             <div class="form-questions">
               <p class="question"><label for="how-often">Как часто Вы заходите на сайт?</label></p>
-              <select name="how-often" size="1" class="how-often">
+              <select id="how-often" size="1" class="how-often">
                 <option value="1">Почти каждый день</option>
                 <option value="2">Раз в несколько дней</option>
                 <option value="3">Раз в несколько недель</option>
@@ -346,14 +347,14 @@
             <div class="form-questions">
               <p class="question">Вы подписаны на e-mail рассылку?</p>
               <label class="radio-group">
-                  <input type="radio" name="choice" value="да" class="choice-input" checked><p class="choice">Да</p>
+                  <input type="radio" name="choice" value="да" class="choice-input" checked><span class="choice">Да</span>
               </label>
               <label class="radio-group">
-                <input type="radio" name="choice" value="нет" class="choice-input"><p class="choice">Нет</p>
+                <input type="radio" name="choice" value="нет" class="choice-input"><span class="choice">Нет</span>
               </label>
             </div>
             <div class="form-questions">
-              <label class="question"><p class="question">Расскажите, какой контент Вы хотели бы видеть на нашем сайте?</p></label>
+              <label class="question"><span class="question">Расскажите, какой контент Вы хотели бы видеть на нашем сайте?</span></label>
               <textarea class="field-textarea" required placeholder="Может, больше рецептов?"></textarea>
             </div>
           </form>
