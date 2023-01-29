@@ -88,6 +88,10 @@
         align-items: flex-end;
         /* border-right: none; */
     }
+    .trend-cards:nth-child(2) {
+        border-right: none !important;
+    } 
+
     /* .trend-cards:nth-child(odd) {
         border-right: 3px solid #fff !important;
     }
@@ -289,4 +293,5 @@
         padding: 36px 14px 29px;
         margin: 0 7px 14px;
     }
+
 }
