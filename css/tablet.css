@@ -88,9 +88,11 @@
         align-items: flex-end;
         /* border-right: none; */
     }
-    .trend-cards:nth-child(2) {
-        border-right: none !important;
-    } 
+    @media (orientation:portrait) {
+        .trend-cards:nth-child(2) {
+            border-right: none !important;
+        } 
+    }
 
     /* .trend-cards:nth-child(odd) {
         border-right: 3px solid #fff !important;
