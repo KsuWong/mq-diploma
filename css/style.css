@@ -713,8 +713,8 @@ picture {
   
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
+    width: 0px;
+    height: 0px;
     margin: -1px;
     padding: 0;
     border: 0;
@@ -884,3 +884,26 @@ picture {
     margin-top: 9px;
 }
 
+
+
+
+
+
+/* style.css | file:///C:/Users/KsuWong/.vscode/my%20projects/MQ%20Diploma%20KSW/css/style.css */
+
+.container-main {
+    box-sizing: border-box;
+  }
+  
+  .container-second {
+    box-sizing: border-box;
+  }
+  
+  .container-goods {
+    box-sizing: border-box;
+  }
+  
+  .copyright {
+    box-sizing: border-box;
+  }
+  

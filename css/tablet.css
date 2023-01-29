@@ -88,12 +88,12 @@
         align-items: flex-end;
         /* border-right: none; */
     }
-    .trend-cards:nth-child(odd) {
+    /* .trend-cards:nth-child(odd) {
         border-right: 3px solid #fff !important;
     }
     .trend-cards:not(:last-child) {
         border-right: none;
-    }
+    } */
 
     .trend-card-content {
         display: flex;
@@ -125,9 +125,11 @@
     .posts {
         flex-direction: column;
         padding: 0;
+        max-width: 100%;
     }
     .post-img {
         width: 393px;
+        max-width: 100%;
         height: 304px;
         margin-bottom: 11px;
     }
@@ -136,6 +138,7 @@
     }
     .post-total {
         width: 392px;
+        max-width: 100%;
         padding-right: 0px;
         padding-bottom: 18px;
         margin-left: 0px;

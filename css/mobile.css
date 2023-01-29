@@ -124,7 +124,7 @@
     }
 
     .post-img {
-        width: 100%;
+        max-width: 100%;
         height: 253px;
         margin: 0 !important;
     }
