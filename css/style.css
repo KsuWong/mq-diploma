@@ -69,7 +69,8 @@ ol, ul {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 28px;
 }
@@ -560,7 +561,7 @@ ol, ul {
 
 /*Магазин*/
 .container-second {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -571,11 +572,11 @@ ol, ul {
 }
 
 .container-goods {
-    width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;    
-    padding: 0 15px; 
+    /* padding: 0 15px;  */
     gap: 60px;
 }
 
